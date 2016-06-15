@@ -1,3 +1,6 @@
+// var P = function() {}
+// var p = new P();
+// ‘Úp.__proto__ = P.prototype, p.constructor = P
 
 function inheritPrototype(subClass,superClass) {
     var p = inheritObject(superClass.prototype);
